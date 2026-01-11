@@ -1,74 +1,61 @@
-<style>
-	.img-test{
-		width: 225px;
-		height: 275px;
-		object-fit: cover;
-		margin-bottom: 0;
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Google</title>
+	<style>
+	div{
+		text-align: center;
+
 
 	}
-	.user{ 
-		font-weight: bold;
-		font-family: arial;
-		font-size: 18px;
-		margin-top: 8px;
-		margin-bottom: 0px;
-		margin-left: 6px;
+
+	.google-logo{
+		width: 230px;
+		justify-content: center;
+		margin-bottom: 20px;
+		margin-top: 300px;
 	}
-	.mutual{
-		font-family: arial;
-		font-size: 18px;
-		margin-top: 8px;
-		color: rgb(116, 116, 116);
-		margin-bottom: 0px;
-		margin-left: 6px;
-	}
-	.friend{
-		background-color: rgb(57, 117, 233);
-		color: white;
+	.search{
 		border: none;
-		padding-top: 10px ;
-		padding-bottom: 10px ;
-		padding-left: 23px;
-		padding-right: 23px;
-		border-radius: 5px;
-		font-size: 15px;
-		margin-top: 8px;
-		margin-left: 6px;
-		margin-bottom: 5px;
-	}
-	.border{
-		box-shadow: 0 0 13px;
-		width: 225px;
+		box-shadow: 0 0 3px;
 		border-radius: 6px;
-		display: inline-block;
-		margin-right: 40px;
+		height: 33px;
+		width: 400px;
+		font-size: 18px;
+		margin-bottom: 20px;
+		font-family: arial;
 	}
-	.friend:hover{
+	.button{
+		text-align: center;
+		border: none;
+		background-color: rgb(244, 244, 244);
+		height: 50px;
+		padding-left:20px ;
+		padding-right:20px ;
+		font-size: 16px;
+		font-family: arial;
+
+
+	}
+	.button:hover{
 		opacity: 0.8;
 		cursor: pointer;
 	}
-	.friend:active{
-		opacity: 0.5;
+
+	.button:active{
+		opacity: 0.6;
 	}
-
 </style>
-
-
-<div class="border">
-	<img class="img-test" src="https://i.pinimg.com/736x/d4/12/a8/d412a8e193e95cceb29dfe9ab294b911.jpg"g>
-	<p class="user">Mrbeast</p>
-	<p class="mutual">2 mutual friends</p>
-	<button class="friend">Add Friend</button>
+</head>
+<body>
+<div>
+<div>
+	<img class="google-logo" src="https://cdn.freebiesupply.com/images/large/2x/google-logo-transparent.png"></div>
+<div><input class="search" type="text" placeholder="Search Google or type URL"></div>
 </div>
-<div class="border">
-	<img class="img-test" src="https://yt3.googleusercontent.com/G28ijRsc3VESiri-nOIQ-XFrKSjFJAq9nL0t0zzQrfCHoO26biKdM2l94ksiOT4MRtduCFejtw=s160-c-k-c0x00ffffff-no-rj">
-	<p class="user">hxsain</p>
-	<p class="mutual">5 mutual friends</p>
-	<button class="friend">Add Friend</button>
+<div><button class="button" >Google Search</button> <button class="button" >I'm Feeling Lucky</button></div>
 </div>
-<div class="border">
-	<img class="img-test" src="https://i.pinimg.com/736x/a8/65/88/a86588e5206ecb1632c17dfaf91f056f.jpg	">
-	<p class="user">Christian Bale</p>
-	<p class="mutual">1 mutual friends</p>
-	<button class="friend">Add Friend</button>
-</div>
+</body>
+</html>
